@@ -192,7 +192,7 @@ export default function ChosenWine() {
 
                         <section className={styles.symbolContainer}>
                             <img src={lockSymbol}></img>
-                            <h4>{ editedWine.drinkAfter === "" ? "Behöver ej lagras." : wine.drinkAfter }</h4>
+                            <h4>{ editedWine.drinkAfter === "" ? "Behöver ej lagras." : ("Får drickas efter " + wine.drinkAfter) }</h4>
                         </section>
 
                         <section className={styles.symbolContainer}>

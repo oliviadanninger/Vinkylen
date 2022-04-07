@@ -1,20 +1,19 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import styles from './LandingPage.module.css';
+import wineFridge from '../img/wineFridge.svg';
 
 
 export default function LandingPage() {
     return(
         <section className={styles.landingPageContainer}>
+            <img className={styles.wineFridge} src={wineFridge}></img>
             <article>
                 <Link to="/categories">
-                    <figure>
-                        <button className={styles.btnCategories}>Titta in</button>
-                    </figure>
+                    <button>Kika i kylen</button>
                 </Link>
-
                 <Link to="/add-wine">
-                    <button className={styles.btnAddWine}>Lägg till vin</button>
+                    <button>Lägg till vin</button>
                 </Link>
             </article>
         </section>
