@@ -1,0 +1,19 @@
+nav {
+    background-color: #222222;
+    padding: 0 1em;
+    width: calc(100vw - 2em);
+    position: fixed;
+    bottom: 0;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav article {
+    text-align: center;
+  }
+  
+  nav h4 {
+    color: white;
+  }

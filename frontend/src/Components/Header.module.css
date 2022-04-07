@@ -1,0 +1,18 @@
+header {
+    background-color: #222222;
+    padding: 0 1em;
+    width: calc(100vw - 2em);
+    position: fixed;
+    top: 0;
+    height: 92px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1em;
+  }
+  
+  header section {
+    width: calc(100vw - 2em);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

@@ -1,0 +1,14 @@
+.productCardSmall {
+    background-color: white;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 3fr 15fr 1fr;
+}
+
+.wineImg {
+    height: 80px;
+}
+
+.typeImg {
+    height: 18px;
+}

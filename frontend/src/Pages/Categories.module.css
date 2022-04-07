@@ -1,0 +1,23 @@
+.categoriesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  
+  .gridContainer article {
+    text-align: center;
+  }
+
+  .flexContainer {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

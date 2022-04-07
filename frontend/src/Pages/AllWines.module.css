@@ -1,0 +1,11 @@
+.h1Container {
+    display: flex;
+    gap: .5em;
+}
+
+.allWinesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}

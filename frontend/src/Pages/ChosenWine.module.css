@@ -1,0 +1,95 @@
+h5 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(126, 0, 0);
+}
+
+.chosenWineContainer {
+    padding: 1em;
+}
+
+.chosenWineContainer button {
+    margin: 1em 0;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.editBtn {
+    height: 20px;
+}
+
+.hideInputs {
+    display:none;
+}
+
+.showInputs {
+    display: block;
+}
+
+.topGrid {
+    display: grid;
+    grid-template-columns: 13fr 1fr;
+    width: 100%;
+}
+
+.middleGrid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 100%;
+}
+
+.middleGrid img {
+    height: 180px;
+}
+
+.middleGrid>article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottomFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+
+.symbolContainer {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.infoContainer {
+    display: flex;
+    gap: 1em; 
+    align-items: flex-start;
+}
+
+.infoContainer img {
+    margin-top: 5px;
+}
+
+.symbolContainer img {
+    height: 15px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.inputContainer>article {
+    display: flex;
+    flex-direction: column;
+}

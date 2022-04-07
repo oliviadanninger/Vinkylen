@@ -1,0 +1,15 @@
+.chosenCategoryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.h1Container {
+    display: flex;
+    gap: .5em;
+}
+
+.typeImg {
+    height: 18px;
+}

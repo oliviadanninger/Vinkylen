@@ -1,0 +1,65 @@
+body {
+  background-color: #F6F1EE;
+}
+
+main {
+  margin: 108px 0 68px 0;
+}
+
+h1, h2, h3, h4, p {
+  margin: 3px 0;
+  font-weight: 400;
+  color: #222222;
+}
+
+h1 {
+  color: #989390;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 14px;;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: #222222;
+	color: white;
+	border: none;
+  border-radius: 4px;
+	padding: 1em;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  width: 226px;
+}
+
+/* Vinkyls-bilden */
+div div {
+  background-color: gray;
+  width: 226px;
+  height: 455px;
+  text-align: center;
+}
+
+.h1Container {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}

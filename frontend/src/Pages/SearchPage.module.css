@@ -1,0 +1,40 @@
+.searchContainer {
+    background-color: #A9A09B;
+    padding: 1em 1em 2em 1em;
+    border-bottom: 1px solid #222222;;
+}
+
+.h1Container {
+    display: flex;
+    align-items: center;
+    gap: .4em;
+}
+
+.h1Container h1 {
+    color: #222222;
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.h1Container img {
+    height: 16px;
+}
+
+.inputContainer {
+    padding-top: 1.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer input {
+    width: 80%;
+    border: 1px solid #222222;
+}
+
+.wineContainer {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

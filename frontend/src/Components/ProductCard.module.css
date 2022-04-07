@@ -1,0 +1,34 @@
+.productCard {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 17fr 1fr;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.wineImg{
+    height: 130px;
+    padding: .5em 1.5em;
+}
+
+.container>article {
+    padding: 1em;
+}
+
+.symbol {
+    margin-top: .5em;
+}
+
+.flexContainer {
+    display: flex;
+    gap: .5em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}

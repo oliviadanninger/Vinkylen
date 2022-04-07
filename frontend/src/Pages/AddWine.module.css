@@ -1,0 +1,74 @@
+input, select {
+    height: 3em;
+    margin: 0;
+    padding: 0 .5em;
+    border: none;
+    border-radius: 2px;
+}
+
+textarea {
+    border: none;
+    padding: .5em;
+    border-radius: 2px;
+}
+
+label {
+    font-size: 12px;
+    margin-bottom: .3em;
+}
+
+.addWineContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    background-color: #A9A09B;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.addWineContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: calc(90vw - 4em);
+}
+
+.form section {
+    display: flex;
+    justify-content: space-between;
+    width: calc(90vw - 4em);
+}
+
+.form article {
+    display: flex;
+    flex-direction: column;
+}
+
+.xsInput {
+    width: 16vw;
+}
+
+.smallInput {
+    width: 31vw;
+}
+
+.bigInput {
+    width: calc(90vw - 6em);
+}
+
+.selectInput {
+    width: calc(90vw - 5em); 
+}
+
+.infoInput {
+    width: calc(90vw - 6em);
+}
