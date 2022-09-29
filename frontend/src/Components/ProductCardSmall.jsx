@@ -42,7 +42,7 @@ export default function ProductCardSmall(props) {
     return (
         <Link state={wine} to="/chosen-wine">
             <article className={styles.productCardSmall}>
-                <img className={styles.wineImg} src="https://product-cdn.systembolaget.se/productimages/24655510/24655510_800.png"></img>
+                <img className={styles.wineImg} src={wine.image}></img>
 
                 <article>
                     <h4>{wine.producer}</h4>

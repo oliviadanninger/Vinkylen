@@ -48,7 +48,7 @@ label {
     width: calc(90vw - 4em);
 }
 
-.form article {
+.form>article {
     display: flex;
     flex-direction: column;
 }
@@ -71,4 +71,38 @@ label {
 
 .infoInput {
     width: calc(90vw - 6em);
+}
+
+.cameraContainer {
+    width: 96%;
+}
+
+.camera, .result, .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+canvas, video {
+    border-radius: 5px;
+}
+
+.cameraContainer button {
+    width: 70px;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.photoBtn {
+    background-color: #F6F1EE;
+}
+
+.saveBtn {
+    background-color: #1B9527;
+    color: #222222;
 }

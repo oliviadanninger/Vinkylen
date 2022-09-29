@@ -56,7 +56,8 @@ export default function ChosenWine() {
         "drinkAfter": wine.drinkAfter,
         "info": wine.info,
         "vivino": wine.vivino,
-        "amount": wine.amount
+        "amount": wine.amount,
+        "image": wine.image
     });
 
     // Funktion som tar bort vinet från store
@@ -156,7 +157,7 @@ export default function ChosenWine() {
                     </article>
 
                     <article className={styles.middleGrid}>
-                        <img src="https://product-cdn.systembolaget.se/productimages/24655510/24655510_800.png"></img>
+                        <img src={editedWine.image}></img>
 
                         <article>
                             <section className={styles.symbolContainer}>

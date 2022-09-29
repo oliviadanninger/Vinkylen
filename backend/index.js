@@ -10,13 +10,11 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 app.use(bodyParser.json());
-//
-
 app.use(cors({ origin: '*' }));
 app.use(express.static('public'));
 
 
-//POST (Lägga till vin)
+//POST
 app.post('/api_post', function(req, res) {
 
     // HANTERAR ID
@@ -44,7 +42,7 @@ app.post('/api_post', function(req, res) {
     res.send(newWineFile)
 })
 
-//DELETE (ta bort vin)
+//DELETE 
 app.delete('/api_delete', function(req, res) {
     let filePath = __dirname + '/public/wines.json';
     let wineFile = fs.readFileSync(filePath);
@@ -56,7 +54,7 @@ app.delete('/api_delete', function(req, res) {
     res.send(newWineFile)
 })
 
-//PUT (updatera vin)
+//PUT
 app.put('/api_put', function(req,res){
     let filePath = __dirname + '/public/wines.json';
     let wineFile = fs.readFileSync(filePath);

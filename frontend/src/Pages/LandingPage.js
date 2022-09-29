@@ -5,17 +5,11 @@ import wineFridge from '../img/wineFridge.svg';
 
 
 export default function LandingPage() {
-    return(
+    return (
         <section className={styles.landingPageContainer}>
-            <img className={styles.wineFridge} src={wineFridge}></img>
-            <article>
-                <Link to="/categories">
-                    <button>Kika i kylen</button>
-                </Link>
-                <Link to="/add-wine">
-                    <button>Lägg till vin</button>
-                </Link>
-            </article>
+            <Link to="/categories">
+                <img className={styles.wineFridge} src={wineFridge}></img>
+            </Link>
         </section>
     )
 }

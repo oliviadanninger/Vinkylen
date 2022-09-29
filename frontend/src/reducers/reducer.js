@@ -1,6 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-
 const slice = createSlice({
     name: 'wineHandler',
     initialState: [],
@@ -40,7 +39,7 @@ const slice = createSlice({
 
 
 function postWine(wine) {
-    // POST (lägga till)
+    // Lägga till vin
     fetch('http://localhost:5010/api_post', {
             method: "POST",
             headers: {
@@ -53,7 +52,7 @@ function postWine(wine) {
 }
 
 function deleteWine(wine) {
-    // DELETE (ta bort)
+    // Ta bort vin
     fetch('http://localhost:5010/api_delete', {
             method: "DELETE",
             headers: {
@@ -66,7 +65,7 @@ function deleteWine(wine) {
 }
 
 function putWine(wine) {
-    // PUT (uppdatera)
+    // Redigera
     fetch('http://localhost:5010/api_put', {
             method: "PUT",
             headers: {
